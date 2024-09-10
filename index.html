@@ -86,51 +86,6 @@
         <p>© 2024 My GitHub Website</p>
     </footer>
 
-├── _config.yml        # Configuration settings
-├── _layouts/
-│   └── default.html   # Default template
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} | {{ site.title }}</title>
-</head>
-<body>
-  <header>
-    <h1>{{ site.title }}</h1>
-    <p>{{ site.description }}</p>
-  </header>
-
-  <main>
-    {{ content }}
-  </main>
-
-  <footer>
-    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
-  </footer>
-</body>
-</html>
-
-├── _posts/
-│   └── 2024-09-01-welcome-to-my-site.md  # A sample blog post
-    ---
-layout: default
-title: "Selin Dolay"
-date: 2024-09-01
----
-
-Welcome!
-
-├── index.html         # Homepage
-
-    title: My Jekyll Website
-description: > # Your description goes here
-  This is a simple website using Jekyll on GitHub Pages.
-baseurl: "" # The subpath of your site, e.g. /blog
-url: "https://username.github.io" # Your site's URL
-
-
 
 </body>
 </html>
