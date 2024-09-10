@@ -1,0 +1,5 @@
+title: My Jekyll Website
+description: > # Your description goes here
+  This is a simple website using Jekyll on GitHub Pages.
+baseurl: "" # The subpath of your site, e.g. /blog
+url: "https://username.github.io" # Your site's URL
